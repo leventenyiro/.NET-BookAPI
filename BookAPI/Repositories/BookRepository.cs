@@ -7,6 +7,11 @@ namespace BookAPI.Repositories
     {
         private readonly BookContext _context;
 
+        public BookRepository(BookContext context)
+        {
+            _context = context;
+        }
+
         public async Task<Book> Create(Book book)
         {
             _context.Books.Add(book);
