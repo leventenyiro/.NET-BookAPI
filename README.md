@@ -6,3 +6,6 @@ Entity is the book
 
 API secure
 https://codingsonata.com/secure-asp-net-core-web-api-using-api-key-authentication/
+
+MySql
+https://docs.microsoft.com/en-us/ef/core/
